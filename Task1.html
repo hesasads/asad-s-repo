@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task no#1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(253, 248, 248);
+            margin: 0;
+            padding: 60px;
+            font-family: raleway, sans-serif;
+        }
+        @media (max-width:768px)
+        h1{
+
+            text-align: center;
+        }
+        i{
+            color: gray;
+        }
+        .header-text{
+            margin-bottom: 60px;
+            text-align: center;
+        }
+        b{
+            background-color: black;
+            color: white;
+            padding: 1px;
+        }
+        button{
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .container{
+            display: flex;
+            gap: 20px;
+        }
+        .left-column{
+            flex: 3;
+            max-width: 70%;
+        }
+        .blog-post{
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+        }
+        .right-column {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            line-height: 20px;
+            flex:1;
+            box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+            height: 400px;
+            
+        }
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }       
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>MY BLOG</h1>
+        <p class="header-text">Welcome to the blog of <b>Unknown</b></p>
+    </div>
+    <div class="container">
+    <div class="left-column">
+        <div class="blog-post">
+        <img src="woods.jpg" alt="">
+        <h2>TITLE HEADING</h2>
+        <p>Title description<i> April 1, 2014</i></p>
+        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <button>READ MORE >> </button>
+        <p></p>
+        </div>
+        <div class="blog-post">
+        <img src="bridge.jpg" alt="">
+        <h2>BLOG ENTRY</h2>
+        <p>Title description<i> April 2, 2014</i></p>
+        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <button>READ MORE >></button>
+        </div>
+        </div>
+        <div class="right-column">
+        <img src="avatar_g.jpg" alt="">
+        <h3>MY NAME</h3>
+        <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+    </div>
+    
+    </div>
+</body>
+</html>
